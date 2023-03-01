@@ -1,0 +1,13 @@
+Portals
+
+    Portals need two things, a place we want to put the component, and then need to let the component know.
+
+    In index.html we make a div with some id
+
+Refs
+    They allow us access to other DOM elements and work with them. Whit Refs we can set up a connection between HTML element which is been rendered in the end and our other JS code.
+
+    It takes a default value that we want to initialized to. Returns a value which allows to wokr with that value later. But we are receiving the exact node value from the DOM.
+
+    If we use Refs we talk about uncontrolled components, why uncontrolled, because the internal state is not controlled by React.
+
